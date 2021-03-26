@@ -2,11 +2,11 @@
   "foods": [
     {
       "id": 1,
-      "name": "Ao molho2DDD",
-      "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas1",
-      "price": "19.901DDD",
+      "name": "Pedrinho 123",
+      "description": "Oba comida boa",
+      "price": "19.9",
       "available": true,
-      "image": "https://storage.googleapis.com/DDDDgolden-wind/bootcamp-gostack/desafio-food/food1.png"
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png"
     },
     {
       "id": 2,
@@ -23,62 +23,6 @@
       "price": "25.90",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
-    },
-    {
-      "image": "sad",
-      "name": "dsada",
-      "price": "111",
-      "description": "dsadad",
-      "available": true,
-      "id": 4
-    },
-    {
-      "image": "d",
-      "name": "d",
-      "price": "d",
-      "description": "d",
-      "available": true,
-      "id": 5
-    },
-    {
-      "image": "d",
-      "name": "d",
-      "price": "d",
-      "description": "d",
-      "available": true,
-      "id": 6
-    },
-    {
-      "image": "pedro",
-      "name": "pedro",
-      "price": "1212",
-      "description": "pedro",
-      "available": true,
-      "id": 7
-    },
-    {
-      "image": "ddd",
-      "name": "ddd",
-      "price": "ddd",
-      "description": "ddd",
-      "available": true,
-      "id": 8
-    },
-    {
-      "image": "ddd",
-      "name": "ddd",
-      "price": "ddd",
-      "description": "ddd",
-      "available": true,
-      "id": 9
-    },
-    {
-      "image": "ddasda",
-      "name": "dasd",
-      "price": "aasdsa",
-      "description": "asdasd",
-      "available": true,
-      "id": 10
     }
   ]
 }
