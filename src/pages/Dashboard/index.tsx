@@ -6,6 +6,7 @@ import Food from '../../components/Food';
 import ModalAddFood from '../../components/ModalAddFood';
 import ModalEditFood from '../../components/ModalEditFood';
 import { FoodsContainer } from './styles';
+import { FoodData } from '../../types/Food';
 
 function Dashboard(){
   const [foods, setFoods] = useState([] as any []);
@@ -21,7 +22,7 @@ function Dashboard(){
     setFoodsFromApi();
   }, []);
 
-  const handleAddFood = async (food: any) => {
+  const handleAddFood = async (food: FoodData) => {
     try {
       const {data} = await api.post('/foods', {
         ...food,
@@ -34,7 +35,7 @@ function Dashboard(){
     }
   }
 
-  const handleUpdateFood = async (food: any) => {
+  const handleUpdateFood = async (food: FoodData) => {
 
     try {
       const foodUpdated = await api.put(
@@ -69,7 +70,7 @@ function Dashboard(){
     seteditModalOpen(!editModalOpen);
   }
 
-  const handleEditFood = (food: any) => {
+  const handleEditFood = (food: FoodData) => {
     setEditingFood(food);
     seteditModalOpen(true);
   }
