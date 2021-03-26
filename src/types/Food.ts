@@ -1,6 +1,6 @@
 export interface FoodData {
     id: number;
-    avaliable: boolean;
+    available: boolean;
     name: string;
     description: string;
     image: string;

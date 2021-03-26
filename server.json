@@ -5,7 +5,7 @@
       "name": "Pedrinho 123",
       "description": "Oba comida boa",
       "price": "19.9",
-      "available": true,
+      "available": false,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png"
     },
     {
@@ -13,7 +13,7 @@
       "name": "Veggie cREDO",
       "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
       "price": "21.90",
-      "available": true,
+      "available": false,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png"
     },
     {
