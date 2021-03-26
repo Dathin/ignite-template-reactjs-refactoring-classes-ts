@@ -1,19 +1,11 @@
 {
   "foods": [
     {
-      "id": 1,
-      "name": "Pedrinho 123",
-      "description": "Oba comida boa",
-      "price": "19.9",
-      "available": false,
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png"
-    },
-    {
       "id": 2,
       "name": "Veggie cREDO",
       "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
       "price": "21.90",
-      "available": false,
+      "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png"
     },
     {
@@ -23,6 +15,14 @@
       "price": "25.90",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+    },
+    {
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "name": "Novo Pedrinho 1234",
+      "price": "11",
+      "description": "Sim",
+      "available": true,
+      "id": 4
     }
   ]
 }

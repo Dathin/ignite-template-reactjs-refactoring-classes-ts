@@ -92,9 +92,7 @@ function Dashboard(){
 
       <FoodsContainer data-testid="foods-list">
         {foods &&
-          foods.map(food => {
-            console.log(food);
-            return (
+          foods.map(food => (
             <Food
               key={food.id}
               food={food}
@@ -102,7 +100,7 @@ function Dashboard(){
               handleEditFood={handleEditFood}
             />
             )
-          })}
+          )}
       </FoodsContainer>
     </>
   );
