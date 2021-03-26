@@ -9,7 +9,11 @@ import { useField } from '@unform/core';
 
 import { Container } from './styles';
 
-const Input = ({ name, icon: Icon, ...rest }) => {
+interface InputProps {
+  name: string;
+}
+
+const Input = ({ name, ...rest }: InputProps) => {
   const inputRef = useRef(null);
 
   const [isFocused, setIsFocused] = useState(false);
@@ -24,7 +28,7 @@ const Input = ({ name, icon: Icon, ...rest }) => {
   const handleInputBlur = useCallback(() => {
     setIsFocused(false);
 
-    setIsFilled(!!inputRef.current?.value);
+    setIsFilled(!!inputRef.current);
   }, []);
 
   useEffect(() => {
@@ -37,7 +41,7 @@ const Input = ({ name, icon: Icon, ...rest }) => {
 
   return (
     <Container isFilled={isFilled} isFocused={isFocused}>
-      {Icon && <Icon size={20} />}
+      {/* {Icon && <Icon size={20} />} */}
 
       <input
         onFocus={handleInputFocus}
