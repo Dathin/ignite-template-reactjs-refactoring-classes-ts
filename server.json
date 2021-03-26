@@ -2,15 +2,15 @@
   "foods": [
     {
       "id": 1,
-      "name": "Ao molho2",
+      "name": "Ao molho2DDD",
       "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas1",
-      "price": "19.901",
+      "price": "19.901DDD",
       "available": true,
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png"
+      "image": "https://storage.googleapis.com/DDDDgolden-wind/bootcamp-gostack/desafio-food/food1.png"
     },
     {
       "id": 2,
-      "name": "Veggie",
+      "name": "Veggie cREDO",
       "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
       "price": "21.90",
       "available": true,
@@ -71,6 +71,14 @@
       "description": "ddd",
       "available": true,
       "id": 9
+    },
+    {
+      "image": "ddasda",
+      "name": "dasd",
+      "price": "aasdsa",
+      "description": "asdasd",
+      "available": true,
+      "id": 10
     }
   ]
 }
