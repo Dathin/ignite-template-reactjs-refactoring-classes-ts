@@ -39,6 +39,22 @@
       "description": "d",
       "available": true,
       "id": 5
+    },
+    {
+      "image": "d",
+      "name": "d",
+      "price": "d",
+      "description": "d",
+      "available": true,
+      "id": 6
+    },
+    {
+      "image": "pedro",
+      "name": "pedro",
+      "price": "1212",
+      "description": "pedro",
+      "available": true,
+      "id": 7
     }
   ]
 }
